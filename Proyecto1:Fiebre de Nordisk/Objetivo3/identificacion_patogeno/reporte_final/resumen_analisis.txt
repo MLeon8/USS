@@ -1,0 +1,32 @@
+=== REPORTE DE IDENTIFICACIÓN DE PATÓGENO ===
+Fecha: mié 23 jul 2025 07:25:38 CST
+
+[1] SECUENCIAS ANALIZADAS
+------------------------
+Número de secuencias: 13
+Longitud promedio: 964.846 bp
+
+[2] RESULTADOS DE BLAST
+------------------------
+
+
+[3] ANÁLISIS FILOGENÉTICO
+-------------------------
+Árbol generado con FastTree (GTR+CAT model)
+Archivo: /home/mleon/Escritorio/Nordisk/Objetivo3/identificacion_patogeno/arbol_filogenetico.nwk
+
+[4] ANOTACIÓN GENÓMICA
+----------------------
+Genoma de referencia: 
+Genes identificados:
+
+
+[5] CONCLUSIONES
+----------------
+El análisis sugiere que el agente patógeno es:
+
+
+Características relevantes:
+- Presencia de genes de cápside viral
+- Similitud con norovirus según análisis filogenético
+- Patrón de expresión compatible con infección viral

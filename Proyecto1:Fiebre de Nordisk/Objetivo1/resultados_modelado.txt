@@ -1,0 +1,18 @@
+
+Norilsk:
+R0: inf
+Parámetros: beta=1.0000, gamma=0.0000, mu=0.0000
+Semana 10 - S: 12922, I: 187377, R: 0, D: 0
+Semana 52 - S: 0, I: 200300, R: 0, D: 0
+
+Kayerkan:
+R0: inf
+Parámetros: beta=1.0000, gamma=0.0000, mu=0.0000
+Semana 10 - S: 36230, I: 43779, R: 0, D: 0
+Semana 52 - S: 0, I: 80010, R: 0, D: 0
+
+Dudinka:
+R0: inf
+Parámetros: beta=1.0000, gamma=0.0000, mu=0.0000
+Semana 10 - S: 14214, I: 45805, R: 0, D: 0
+Semana 52 - S: 0, I: 60020, R: 0, D: 0
