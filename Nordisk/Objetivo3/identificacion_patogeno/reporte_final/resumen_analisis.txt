@@ -1,0 +1,23 @@
+=== REPORTE DE IDENTIFICACIÓN DE PATÓGENO ===
+Fecha: mié 23 jul 2025 09:24:13 CST
+
+[1] SECUENCIAS ANALIZADAS
+------------------------
+Número de secuencias: 13
+Longitud promedio: 964.846 bp
+
+[2] RESULTADOS DE BLAST
+------------------------
+
+[3] ANÁLISIS FILOGENÉTICO
+-------------------------
+Árbol filogenético generado: /home/mleon/Escritorio/Nordisk/Objetivo3/identificacion_patogeno/arbol_filogenetico.nwk
+
+[4] ANOTACIÓN GENÓMICA
+----------------------
+No se pudo obtener la anotación genómica
+
+[5] CONCLUSIONES
+----------------
+El análisis sugiere que el agente patógeno es compatible con:
+

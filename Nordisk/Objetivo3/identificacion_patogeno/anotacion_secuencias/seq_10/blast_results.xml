@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>unknown sequence 10</BlastOutput_query-def>
+  <BlastOutput_query-len>4195</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>unknown sequence 10</Iteration_query-def>
+  <Iteration_query-len>4195</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3004575199|gb|CP185380.1|</Hit_id>
+  <Hit_def>Salmonella enterica strain HC-2sh chromosome, complete genome</Hit_def>
+  <Hit_accession>CP185380</Hit_accession>
+  <Hit_len>4679634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>2733808</Hsp_hit-from>
+      <Hsp_hit-to>2734385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1059</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>2733805</Hsp_hit-from>
+      <Hsp_hit-to>2734385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>599</Hsp_align-len>
+      <Hsp_qseq>TGACCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>TGCCCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2998824486|gb|CP129974.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Enteritidis strain CSNSembilan chromosome, complete genome</Hit_def>
+  <Hit_accession>CP129974</Hit_accession>
+  <Hit_len>4691380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4630599</Hsp_hit-from>
+      <Hsp_hit-to>4631176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1059</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4630596</Hsp_hit-from>
+      <Hsp_hit-to>4631176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>599</Hsp_align-len>
+      <Hsp_qseq>TGACCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>TGCCCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2998819031|gb|CP129885.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Enteritidis strain CSPenang chromosome, complete genome</Hit_def>
+  <Hit_accession>CP129885</Hit_accession>
+  <Hit_len>4691387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4274666</Hsp_hit-from>
+      <Hsp_hit-to>4274089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1062</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4274666</Hsp_hit-from>
+      <Hsp_hit-to>4274089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2998786531|gb|CP168659.1|</Hit_id>
+  <Hit_def>Salmonella enterica strain MFDS1022168 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP168659</Hit_accession>
+  <Hit_len>4771958</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>728071</Hsp_hit-from>
+      <Hsp_hit-to>728648</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1059</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>728068</Hsp_hit-from>
+      <Hsp_hit-to>728648</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>599</Hsp_align-len>
+      <Hsp_qseq>TGACCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>TGCCCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2995062374|gb|CP146342.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Enteritidis strain SE413 chromosome</Hit_def>
+  <Hit_accession>CP146342</Hit_accession>
+  <Hit_len>4667401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>2582</Hsp_hit-from>
+      <Hsp_hit-to>3159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1059</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>2579</Hsp_hit-from>
+      <Hsp_hit-to>3159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>599</Hsp_align-len>
+      <Hsp_qseq>TGACCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>TGCCCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2994904892|gb|CP161837.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Typhimurium strain SCUT5 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP161837</Hit_accession>
+  <Hit_len>5117867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4178754</Hsp_hit-from>
+      <Hsp_hit-to>4178177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1062</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4178754</Hsp_hit-from>
+      <Hsp_hit-to>4178177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2994889413|gb|CP161840.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Typhimurium strain CCUT6 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP161840</Hit_accession>
+  <Hit_len>4840291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>625174</Hsp_hit-from>
+      <Hsp_hit-to>625751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1059</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>625171</Hsp_hit-from>
+      <Hsp_hit-to>625751</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>599</Hsp_align-len>
+      <Hsp_qseq>TGACCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>TGCCCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2993269019|gb|CP155801.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:- strain SSC2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP155801</Hit_accession>
+  <Hit_len>5116874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4178020</Hsp_hit-from>
+      <Hsp_hit-to>4177443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1062</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4178020</Hsp_hit-from>
+      <Hsp_hit-to>4177443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2993264251|gb|CP159171.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Typhimurium strain CW12 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP159171</Hit_accession>
+  <Hit_len>5001042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4064626</Hsp_hit-from>
+      <Hsp_hit-to>4064049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1062</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4064626</Hsp_hit-from>
+      <Hsp_hit-to>4064049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2993259477|gb|CP159176.1|</Hit_id>
+  <Hit_def>Salmonella enterica subsp. enterica serovar Typhimurium strain CSC6 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP159176</Hit_accession>
+  <Hit_len>5001042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1068.48</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2900</Hsp_query-from>
+      <Hsp_query-to>3477</Hsp_query-to>
+      <Hsp_hit-from>4064626</Hsp_hit-from>
+      <Hsp_hit-to>4064049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>578</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCAGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1062</Hsp_query-from>
+      <Hsp_query-to>1657</Hsp_query-to>
+      <Hsp_hit-from>4064626</Hsp_hit-from>
+      <Hsp_hit-to>4064049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>596</Hsp_align-len>
+      <Hsp_qseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCACGCGATGAATGAGCACTGGGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_qseq>
+      <Hsp_hseq>CCCGGCTTCCAGCGCGAACATGAGCGTCGGTTTCGACGTGTTGGGCGCAGCCGTCACACCCGTTGACGGCACGTTGCTGGGCGATGTGGTATCCGTTGAAGCAGCGGACCATTTCCGTCTGCATAACCTGGGGCGATTTGCCGATAAACTGCCGCCGGAGCCGCGTGAAAATATTGTTTATCAGTGCTGGGAACGTTTTTGCCA------------------GGCATTGGGGAAAACCATCCCGGTGGCGATGACGCTGGAAAAAAATATGCCGATTGGTTCCGGGTTAGGGTCCAGCGCCTGTTCCGTCGTCGCCGCGCTGGTCGCGATGAATGAGCACTGCGGCAAACCGTTAAACGACACGCGTCTGTTGGCGCTGATGGGCGAGCTGGAAGGCCGTATCTCCGGCAGCATCCATTACGATAACGTCGCGCCGTGCTTTCTTGGCGGTATGCAGTTGATGATTGAAGAAAACGGCATTATTAGTCAGCAGGTGCCGGGCTTTGATGAGTGGCTATGGGTACTGGCTTATCCGGGCATTAAAGTTTCTACCGCAGAAGCACGGGCCATTTTGCCTGCGCAGTATCGCCGTCAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104217277</Statistics_db-num>
+      <Statistics_db-len>1600695373582</Statistics_db-len>
+      <Statistics_hsp-len>40</Statistics_hsp-len>
+      <Statistics_eff-space>1.16050267236787e+16</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>unknown sequence 12</BlastOutput_query-def>
+  <BlastOutput_query-len>527</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>unknown sequence 12</Iteration_query-def>
+  <Iteration_query-len>527</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2697756422|ref|XM_054660372.2|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes NIMA related kinase 2 (NEK2), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_054660372</Hit_accession>
+  <Hit_len>2542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>501</Hsp_hit-from>
+      <Hsp_hit-to>771</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.15824e-97</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>784</Hsp_hit-from>
+      <Hsp_hit-to>996</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2697756421|ref|XM_009441339.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan troglodytes NIMA related kinase 2 (NEK2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_009441339</Hit_accession>
+  <Hit_len>2418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>733</Hsp_hit-from>
+      <Hsp_hit-to>1003</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.15824e-97</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>1016</Hsp_hit-from>
+      <Hsp_hit-to>1228</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2694385550|ref|XM_008966804.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus NIMA related kinase 2 (NEK2), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_008966804</Hit_accession>
+  <Hit_len>1784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>480</Hsp_hit-from>
+      <Hsp_hit-to>750</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.15824e-97</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>763</Hsp_hit-from>
+      <Hsp_hit-to>975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2694385547|ref|XM_008966803.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus NIMA related kinase 2 (NEK2), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_008966803</Hit_accession>
+  <Hit_len>2266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>580</Hsp_hit-from>
+      <Hsp_hit-to>850</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.15824e-97</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>863</Hsp_hit-from>
+      <Hsp_hit-to>1075</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2694385544|ref|XM_003814193.5|</Hit_id>
+  <Hit_def>PREDICTED: Pan paniscus NIMA related kinase 2 (NEK2), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_003814193</Hit_accession>
+  <Hit_len>3387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>1677</Hsp_hit-from>
+      <Hsp_hit-to>1947</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.15824e-97</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>1960</Hsp_hit-from>
+      <Hsp_hit-to>2172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1147681745|emb|LT736810.1|</Hit_id>
+  <Hit_def>Human ORFeome Gateway entry vector pENTR223-NEK2, complete sequence</Hit_def>
+  <Hit_accession>LT736810</Hit_accession>
+  <Hit_len>3432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>769</Hsp_hit-from>
+      <Hsp_hit-to>1039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.15513e-20</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>1052</Hsp_hit-from>
+      <Hsp_hit-to>1125</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_hseq>
+      <Hsp_midline>||||  || ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|649136530|gb|KJ901600.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens clone ccsbBroadEn_10994 NEK2 gene, encodes complete protein &gt;gi|649151000|gb|KJ905236.1| Synthetic construct Homo sapiens clone ccsbBroadEn_14710 NEK2 gene, encodes complete protein</Hit_def>
+  <Hit_accession>KJ901600</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>617</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.15513e-20</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>630</Hsp_hit-from>
+      <Hsp_hit-to>703</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_hseq>
+      <Hsp_midline>||||  || ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|194381665|dbj|AK303092.1|</Hit_id>
+  <Hit_def>Homo sapiens cDNA FLJ53945 complete cds, highly similar to Serine/threonine-protein kinase Nek2 (EC 2.7.11.1)</Hit_def>
+  <Hit_accession>AK303092</Hit_accession>
+  <Hit_len>1639</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>366.757</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>5.38878e-96</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>527</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>791</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCATACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAATGCCTCCATTTACAGCTTTTAGCCAGAAAGAACTCGCTGGGAAAATCAGAGAAGGCAAATTCAGGCGAATTCCGTACCGTTACTCTGATGAATTGAATGAAATTATTACGAGGATGTTAAACTTAAAGGATTACCATCGA</Hsp_hseq>
+      <Hsp_midline>||||  || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|168746156|emb|CU688109.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens gateway clone IMAGE:100022787 3&apos; read NEK2 mRNA</Hit_def>
+  <Hit_accession>CU688109</Hit_accession>
+  <Hit_len>1399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.15513e-20</Hsp_evalue>
+      <Hsp_query-from>323</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>TCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_qseq>
+      <Hsp_hseq>TCC-TACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|168746155|emb|CU688108.1|</Hit_id>
+  <Hit_def>Synthetic construct Homo sapiens gateway clone IMAGE:100022787 5&apos; read NEK2 mRNA</Hit_def>
+  <Hit_accession>CU688108</Hit_accession>
+  <Hit_len>1098</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.41584e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>568</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>271</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_qseq>
+      <Hsp_hseq>GGCTAGTGTAATTACAAAGGGAACCAAGGAAAGGCAATACTTAGATGAAGAGTTTGTTCTTCGAGTGATGACTCAGTTGACTCTGGCCCTGAAGGAATGCCACAGACGAAGTGATGGTGGTCATACCGTATTGCATCGGGATCTGAAACCAGCCAATGTTTTCCTGGATGGCAAGCAAAACGTCAAGCTTGGAGACTTTGGGCTAGCTAGAATATTAAACCACGACACGAGTTTTGCAAAAACATTTGTTGGCACACCTTATTACATGTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.00268e-18</Hsp_evalue>
+      <Hsp_query-from>314</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>581</Hsp_hit-from>
+      <Hsp_hit-to>653</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>AATCAGATATCCTTACAATGAGAAATCAGATATCTGGTCATTGGGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_qseq>
+      <Hsp_hseq>AATCGCATGTCC-TACAATGAGAAATCAGATATCTGGTCATT-GGCTGCTTGCTGTATGAGTTATGTGCATTAAT</Hsp_hseq>
+      <Hsp_midline>||||  || ||| ||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104217277</Statistics_db-num>
+      <Statistics_db-len>1600695373582</Statistics_db-len>
+      <Statistics_hsp-len>37</Statistics_hsp-len>
+      <Statistics_eff-space>1.36875507387416e+15</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

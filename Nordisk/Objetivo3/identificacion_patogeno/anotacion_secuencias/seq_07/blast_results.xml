@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>unknown sequence 7</BlastOutput_query-def>
+  <BlastOutput_query-len>1017</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>unknown sequence 7</Iteration_query-def>
+  <Iteration_query-len>1017</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2986263413|gb|PV682585.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate DENV2_LPV polyprotein (POLY) gene, partial cds</Hit_def>
+  <Hit_accession>PV682585</Hit_accession>
+  <Hit_len>10128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3919</Hsp_hit-from>
+      <Hsp_hit-to>4255</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3917</Hsp_hit-from>
+      <Hsp_hit-to>4049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2734515999|gb|PP815632.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate MBC056 polyprotein (POLY) gene, partial cds</Hit_def>
+  <Hit_accession>PP815632</Hit_accession>
+  <Hit_len>10010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3927</Hsp_hit-from>
+      <Hsp_hit-to>4263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3925</Hsp_hit-from>
+      <Hsp_hit-to>4057</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|2623652194|gb|OR838780.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate N10 polyprotein (POLY) gene, complete cds; and sfRNA1 lncRNA gene, partial sequence</Hit_def>
+  <Hit_accession>OR838780</Hit_accession>
+  <Hit_len>10563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3966</Hsp_hit-from>
+      <Hsp_hit-to>4302</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3964</Hsp_hit-from>
+      <Hsp_hit-to>4096</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2557379260|gb|OR389326.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate DENV2/Senegal/Unknown/Yale-DH083 polyprotein (POLY) gene, complete cds; and sfRNA1 lncRNA gene, partial sequence</Hit_def>
+  <Hit_accession>OR389326</Hit_accession>
+  <Hit_len>10512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3991</Hsp_hit-from>
+      <Hsp_hit-to>4327</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3989</Hsp_hit-from>
+      <Hsp_hit-to>4121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2557379250|gb|OR389321.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate DENV2/Peru/1990/Yale-DH075 polyprotein (POLY) gene, complete cds; and sfRNA1 lncRNA gene, partial sequence</Hit_def>
+  <Hit_accession>OR389321</Hit_accession>
+  <Hit_len>10512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3991</Hsp_hit-from>
+      <Hsp_hit-to>4327</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3989</Hsp_hit-from>
+      <Hsp_hit-to>4121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2177644996|gb|OM257419.1|</Hit_id>
+  <Hit_def>Dengue virus 2 isolate 017, complete genome</Hit_def>
+  <Hit_accession>OM257419</Hit_accession>
+  <Hit_len>10713</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>4024</Hsp_hit-from>
+      <Hsp_hit-to>4360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>4022</Hsp_hit-from>
+      <Hsp_hit-to>4154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2177568449|gb|OM256481.1|</Hit_id>
+  <Hit_def>Dengue virus 2 isolate ML, complete genome &gt;gi|2461903818|gb|OQ652964.1| Dengue virus type 2 isolate DENV2_YN_MH, complete genome</Hit_def>
+  <Hit_accession>OM256481</Hit_accession>
+  <Hit_len>10723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>4024</Hsp_hit-from>
+      <Hsp_hit-to>4360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>4022</Hsp_hit-from>
+      <Hsp_hit-to>4154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2461903820|gb|OQ652965.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate DENV2_YN_017, complete genome</Hit_def>
+  <Hit_accession>OQ652965</Hit_accession>
+  <Hit_len>10710</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>4024</Hsp_hit-from>
+      <Hsp_hit-to>4360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>4022</Hsp_hit-from>
+      <Hsp_hit-to>4154</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2328014337|gb|OP809583.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate THSTI-TRC-DENV2-12 polyprotein (POLY) gene, complete cds; and sfRNA1 lncRNA gene, partial sequence</Hit_def>
+  <Hit_accession>OP809583</Hit_accession>
+  <Hit_len>10699</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>4012</Hsp_hit-from>
+      <Hsp_hit-to>4348</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>4010</Hsp_hit-from>
+      <Hsp_hit-to>4142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2027258355|gb|MW945433.1|</Hit_id>
+  <Hit_def>Dengue virus type 2 isolate DENV2/PAPUANEWGUINEA/1944/NEWGUINEAC polyprotein (POLY) gene, partial cds</Hit_def>
+  <Hit_accession>MW945433</Hit_accession>
+  <Hit_len>10175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.7376e-120</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3928</Hsp_hit-from>
+      <Hsp_hit-to>4264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>310</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTG---------------------------TCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_qseq>
+      <Hsp_hseq>ACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTATCATGGCAGTCGGGATGGTGAGCATTTTGGCCAGTTCACTCCTAAAGAATGACATTCCCATGACAGGACCATTAGTGGCTGGAGGGCTCCTCACTGTGTGCTACGTGCTCACTGGACGATCGGCCGATTTGGAACTGGAGAGAGCCGCCGATGTCAAATGGGAAGATCAGGCAGAGATATCAGGAAGCAGTCCAATCCTGTCAATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>246.725</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.46339e-59</Hsp_evalue>
+      <Hsp_query-from>850</Hsp_query-from>
+      <Hsp_query-to>982</Hsp_query-to>
+      <Hsp_hit-from>3926</Hsp_hit-from>
+      <Hsp_hit-to>4058</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_qseq>
+      <Hsp_hseq>TAACATCCTCACAGCAGAAAGCGGATTGGATACCATTAGCATTGACGATCAAGGGTCTCAATCCAACAGCTATTTTTCTAACAACCCTTTCAAGAACCAACAAGAAAAGGAGCTGGCCACTAAATGAGGCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104217277</Statistics_db-num>
+      <Statistics_db-len>1600695373582</Statistics_db-len>
+      <Statistics_hsp-len>38</Statistics_hsp-len>
+      <Statistics_eff-space>2.73460228813222e+15</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

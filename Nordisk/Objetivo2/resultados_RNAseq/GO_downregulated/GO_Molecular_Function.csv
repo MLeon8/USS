@@ -1,0 +1,2 @@
+Gene_set,Term,Overlap,P-value,Adjusted P-value,Old P-value,Old Adjusted P-value,Odds Ratio,Combined Score,Genes,GO_type
+GO_Molecular_Function_2023,Phosphofructokinase Activity (GO:0008443),3/6,0.00023702528909574108,0.0867512558090412,0,0,42.27705627705628,352.9011201076819,PFKFB4;PFKL;PFKP,Molecular_Function
